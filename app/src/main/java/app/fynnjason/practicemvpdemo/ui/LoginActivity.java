@@ -54,9 +54,9 @@ public class LoginActivity extends BaseActivity<LoginPresenter> implements Login
 
     @Override
     protected void initView() {
-        mEtAccount = findViewById(R.id.et_account);
-        mEtPassword = findViewById(R.id.et_password);
-        mBtnLogin = findViewById(R.id.btn_login);
+        mEtAccount = this.findViewById(R.id.et_account);
+        mEtPassword = this.findViewById(R.id.et_password);
+        mBtnLogin = this.findViewById(R.id.btn_login);
     }
 
     @Override
