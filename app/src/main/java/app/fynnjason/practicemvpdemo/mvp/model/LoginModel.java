@@ -7,7 +7,7 @@ import app.fynnjason.practicemvpdemo.callback.ResultCallback;
 
 /**
  * Created by FynnJason on 2017/12/21.
- * 登录Model层
+ * 登录Model层，可以直接用类来调用，也可以去实现接口
  */
 
 public class LoginModel {
