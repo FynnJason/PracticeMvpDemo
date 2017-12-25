@@ -29,6 +29,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                 startActivity(new Intent(this,LoginActivity.class));
                 break;
             case R.id.tv_list_demo:
+                startActivity(new Intent(this,ListActivity.class));
                 break;
         }
     }

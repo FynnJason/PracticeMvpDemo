@@ -10,4 +10,5 @@ public interface IBaseView{
 
     void dismissLoading();
 
+    void showToast(String msg);
 }

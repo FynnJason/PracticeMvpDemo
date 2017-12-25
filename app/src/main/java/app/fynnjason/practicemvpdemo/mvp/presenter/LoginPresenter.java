@@ -39,4 +39,9 @@ public class LoginPresenter extends BasePresenter implements LoginContract.ILogi
             }
         });
     }
+
+    @Override
+    public void start() {
+
+    }
 }

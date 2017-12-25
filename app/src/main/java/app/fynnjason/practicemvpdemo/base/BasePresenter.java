@@ -5,6 +5,10 @@ package app.fynnjason.practicemvpdemo.base;
  * Presenter的基类，可以去实现一个接口基类
  */
 
-public class BasePresenter {
+public class BasePresenter implements IBasePresenter{
 
+    @Override
+    public void start() {
+
+    }
 }

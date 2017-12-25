@@ -1,5 +1,6 @@
 package app.fynnjason.practicemvpdemo.mvp.contract;
 
+import app.fynnjason.practicemvpdemo.base.IBasePresenter;
 import app.fynnjason.practicemvpdemo.base.IBaseView;
 
 /**
@@ -15,11 +16,10 @@ public interface LoginContract {
 
         void loginFail();
 
-        void showToast(String msg);
     }
 
     //登录Presenter接口，可以去实现一个基类扩展
-    interface ILoginPresenter {
+    interface ILoginPresenter extends IBasePresenter{
         void requestLogin(String act,String psw);
     }
 }
